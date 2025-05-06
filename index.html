@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <!-- CDN Boostrape 5 -->
+    <link rel="stylesheet" href="./assets/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- CDN Boostrape Icon -->
+    <link rel="stylesheet" href="./assets/bootstrap-icons/font/bootstrap-icons.min.css" />
+    <!-- CDN Sweeper -->
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.css" />
+    <!-- CDN AOS -->
+    <link rel="stylesheet" href="./assets/aos/dist/aos.css" />
+
+    <!-- CSS Locale -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ICON Website -->
+     <link rel="icon" href="./assets/img/icon.png" type="image/png">
+  </head>
+  <body id="home">
+    <div class="background">
+      <div class="overlay"></div>
+    </div>
+    <!-- START NAVBAR-->
+    <nav class="navbar navbar-light bg-light shadow navbar-expand-lg bg-body-tertiary" data-aos="fade-down" data-aos-delay="100">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="#home" class="navbar-brand logo d-flex align-items-center me-auto">
+          <!-- <h1 class="fs-2 fw-bold mb-0"><span class="text-dark">Rafif</span><span class="text-primary">Rabbani</span></h1> -->
+          <img  width="200" height="100" src="./assets/img/Screenshot_2025-05-05_083105-removebg-preview.png" class="img-fluid" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-3">
+            <li><a href="#" class="nav-link active text-primary fs-5">Home</a></li>
+            <li><a href="#about" class="nav-link text-secondary fs-5">About</a></li>
+            <li><a href="#project" class="nav-link text-secondary fs-5">Project</a></li>
+            <li><a href="#services" class="nav-link text-secondary fs-5">Services</a></li>
+            <li><a href="#contact" class="nav-link text-secondary fs-5">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Icon -->
+        <!-- Social Icons -->
+        <div class="d-none d-lg-flex align-items-center gap-3">
+          <a href="https://www.facebook.com/" class="text-secondary fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/" class="text-secondary fs-4"><i class="bi bi-instagram "></i></a>
+          <a href="https://x.com/" class="text-secondary fs-4"><i class="bi bi-twitter-x "></i></a>
+          <a href="https://id.linkedin.com/" class="text-secondary fs-4"><i class="bi bi-linkedin"></i></a> 
+          <a href="https://github.com/muhrafifrbn" class="text-secondary fs-4"><i class="bi bi-github"></i></a> 
+          
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HERO HEADER -->
+    <header class="hero">
+      
+        <div class="overlay"></div>
+      
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row justify-content-center">
+          <div class="" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="mb-3 pera">Hello</h3>
+            <h2 class="mb-3">I'm Muhammad Rafif Rabbani</h2>
+            <p class="mb-3 text-programmer">Programmer | Software Developer</p>
+            <p class="pera mt-4 mb-4">
+              Welcome to my Portfolio Website<br />
+              who loves learning new technologies and solve problems with code!.
+            </p>
+            <div class="hero-btns d-flex gap-2 mb-3" data-aos="fade-up" data-aos-delay="400">
+              <a href="#contact" class="btn btn-primary">Hire Me</a>
+              <a href="#project" class="btn btn-light">View My Works</a>
+            </div>
+          </div>
+          <!-- <div class="col-lg-6 container-image">
+            <img src="./assets/img/foto-1.jpg" alt="" class="image img-fluid" data-aos="zoom-out" data-aos-delay="500" />
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <!-- END HERO NAVBAR -->
+
+    <!-- ABOUT SECTION-->
+    <section id="about" class="about">
+      <div class="title text-center d-flex flex-column align-items-center gap-2" data-aos="fade-up">
+        <h2 class="fw-bold title-text">About</h2>
+        <!-- svg -->
+        <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" width="200" height="20">
+          <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="#3d03b8" stroke-width="2"></path>
+        </svg>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row about-wrapper g-5 g-md-4">
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="200">
+            <img src="./assets/img/foto-1.jpg" alt="" class="img-fluid rounded" />
+            <div class="personal-info shadow rounded p-4" data-aos="fade-down" data-aos-delay="300">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="d-flex flex-column align-items-start">
+                    <span class="label text-secondary">Name</span>
+                    <span class="label text-dark fw-bold">Muhammad Rafif Rabbani</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column align-items-start">
+                    <span class="label text-secondary">Phone</span>
+                    <span class="label text-dark fw-bold">085694529328</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column align-items-start">
+                    <span class="label text-secondary">Age</span>
+                    <span class="label text-dark fw-bold">20</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column align-items-start">
+                    <span class="label text-secondary">Email</span>
+                    <span class="label text-dark fw-bold">rafif@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content d-flex flex-column align-items-start justify-content-start">
+              <span class="subtitle">Profile</span>
+
+              <p class="lead text-start fs-6 mb-3">
+                Hello!, My name is Muhammad Rafif Rabbani. I was born in Jakarta, November 04, 2004. I am currently a student at Budi Luhur University. I have internship experience while still in Vocational High School, namely as a software
+                developer at the PT. Rumah Logic Indonesia.
+              </p>
+            
+              <div class="personal-info shadow rounded p-4">
+                <span class="subtitle">Skills</span>
+                <div class="row g-3">
+                  <div class="col-3 d-flex flex-column align-items-center" data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 48 48">
+                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                        <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                        <path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path>
+                        <path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                      </svg>
+                      <p class="label text-dark fw-bold">HTML</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+                        <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                        <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                        <path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path>
+                        <path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+                      </svg>
+                      <p class="label text-dark fw-bold">CSS</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+                        <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                        <path
+                          fill="#000001"
+                          d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
+                        ></path>
+                      </svg>
+                      <p class="label text-dark fw-bold">Javascript</p>
+                    </div>
+                  </div>
+                  
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="php">
+                      <path fill="#878EB7" d="M12 18.5c6.626 0 12-2.908 12-6.5 0-3.591-5.374-6.5-12-6.5S0 8.408 0 12s5.374 6.5 12 6.5z"></path>
+                      <path
+                        fill="#23282C"
+                        d="m5.029 15.642.326-1.73c1.542 0 2.497.116 3.382-.737.978-.927 1.234-2.576.536-3.403-.363-.433-.948-.646-1.743-.646H4.878l-1.226 6.516H5.029zm1.038-5.488c1.425 0 2.393-.158 2.115 1.325v-.001c-.296 1.564-1.342 1.402-2.629 1.402l.514-2.726zm4.691 3.75.705-3.731c1.114 0 1.575-.046 1.778.178.21.232.102.487-.476 3.554h1.387c.6-3.171.866-3.843.311-4.368-.529-.502-1.623-.414-2.805-.414l.326-1.73h-1.369L9.39 13.904h1.368zm5.029 1.738.326-1.73c1.62 0 2.516.096 3.382-.737.978-.927 1.234-2.576.536-3.403-.364-.433-.949-.645-1.744-.645h-2.651l-1.23 6.516h1.381zm1.035-5.488c1.433 0 2.393-.158 2.115 1.325v-.001c-.3 1.588-1.376 1.402-2.629 1.402l.514-2.726z"
+                      ></path>
+                    </svg>
+                    <p class="label text-dark fw-bold">PHP</p>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 48 48">
+                      <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#F44336" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><g><path fill="#1565C0" d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path><path fill="#1565C0" d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><path fill="#1565C0" d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><path fill="#1565C0" d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><path fill="#1565C0" d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path></g>
+                      </svg>
+                    </svg>
+                    <p class="label text-dark fw-bold">Java</p>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 48 48">
+                      <path fill="#673ab7" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"></path><path fill="#fff" d="M33.03,25.6c-0.65-0.9-1.59-1.52-2.8-1.85c0,0,1.02-0.37,1.94-1.75c0.55-0.88,0.83-1.94,0.83-3.18 c0-2.15-0.78-3.8-2.34-4.93C29.1,12.76,27.34,12,24.35,12H15v24h10.43c2.83-0.02,4.96-0.63,6.41-1.8c1.44-1.19,2.16-2.95,2.16-5.3 C34,27.6,33.68,26.5,33.03,25.6z M21,16c0,0,4.17,0,4.25,0c1.52,0,2.75,1.23,2.75,2.75c0,1.52-1.23,2.75-2.75,2.75 c-0.08,0-4.25,0-4.25,0V16z M26,32h-5v-6h5c1.66,0,3,1.34,3,3C29,30.66,27.66,32,26,32z"></path>
+                      </svg>
+                    <p class="label text-dark fw-bold">Boostrape</p>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"viewBox="0 0 48 48">
+                        <path
+                          fill="#00acc1"
+                          d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
+                        ></path>
+                      </svg>
+                      <p class="label text-dark fw-bold">Tailwind</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+                        <path fill="#80deea" d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"></path>
+                        <path
+                          fill="#80deea"
+                          d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"
+                        ></path>
+                        <path
+                          fill="#80deea"
+                          d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"
+                        ></path>
+                        <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
+                      </svg>
+                      <p class="label text-dark fw-bold">React JS</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 256 256" id="laravel">
+                        <g fill="#F35045">
+                          <path
+                            d="M160.445 208c2 2.889 3.222 2.667 4.777 2 1.555-.667 81.556-27.667 84-28.555 2.444-.889 1.667-1.667.89-2.89-.778-1.222-27.445-37.444-28.779-39.555-1.333-2.111-2-1.667-4.111-1l-84.805 22.067S158.445 205.11 160.445 208zM256 171.115v-42.398c-9.541 2.542-21.609 5.756-26.373 7.023 7.187 9.616 18.423 24.665 26.373 35.375zM229.545 83.521c-1.307.297-30.247 5.527-32.03 5.764-1.782.238-1.188 1.248-.475 2.258l25.467 34.943s31.139-7.725 33.041-8.141c.154-.034.305-.07.452-.107v-4.627c-5.66-7.177-21.08-26.718-22.413-28.544-1.604-2.199-2.734-1.842-4.042-1.546z"
+                          ></path>
+                          <path
+                            d="M47.456 28.634c6.267-.285 6.839 1.141 9.592 5.224l69.17 115.642 86.974-20.835c-4.819-6.831-26.695-37.846-28.81-40.806-2.376-3.328.06-4.873 3.923-5.526 3.862-.654 37.14-6.24 39.992-6.656 2.853-.416 5.112-1.426 9.746 4.16 2.372 2.858 10.412 12.87 17.957 22.255V48c0-13.222-4.695-24.528-14.083-33.917C232.528 4.695 221.222 0 208 0H48C34.778 0 23.472 4.695 14.083 14.083 8.698 19.47 4.865 25.487 2.57 32.134c15.678-1.288 40.501-3.3 44.887-3.5z"
+                          ></path>
+                          <path
+                            d="M168.289 223.564c-7.334 2.222-10.623 3.325-15.4-3.342-3.578-4.993-22.927-39.843-32.414-57.023-17.955 4.702-50.814 13.278-60.29 15.555-9.248 2.222-13.198-3.323-14.717-6.74C44.403 169.616 17.289 111.158 0 73.65V208c0 13.223 4.695 24.527 14.083 33.917C23.472 251.305 34.778 256 48 256h160c13.222 0 24.528-4.695 33.917-14.083C251.305 232.527 256 221.223 256 208v-15.781c-19.64 7.184-82.77 29.848-87.711 31.345z"
+                          ></path>
+                          <path
+                            d="M60.412 165.288c2.6-.595 51.313-12.253 52.353-12.476 1.04-.223 1.708-.817.594-2.747-1.114-1.93-64.934-112.09-64.934-112.09-.589-1.011-.421-1.348-2.022-1.264-1.427.076-37.538 3.298-45.898 3.996a51.038 51.038 0 0 0-.461 5.331c8.487 17.375 57.199 117.837 57.472 118.655.297.892.297 1.189 2.896.595z"
+                          ></path>
+                        </g>
+                      </svg>
+                      <p class="label text-dark fw-bold">Laravel</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 48 48">
+                        <path fill="#388e3c" d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013"></path><path fill="#37474f" d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z"></path><path fill="#2e7d32" d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"></path><path fill="#4caf50" d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076"></path><path fill="#37474f" d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"></path>
+                        </svg>
+                      <p class="label text-dark fw-bold">Node Js</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+                        <path fill="#00796b" d="M0.002,35.041h1.92v-7.085l2.667,6.057c0.329,0.755,0.779,1.022,1.662,1.022 s1.315-0.267,1.644-1.022l2.667-5.902v6.93h1.92v-7.258c0-0.697-0.277-1.035-0.849-1.209c-1.367-0.43-2.285-0.059-2.7,0.872 l-2.735,6.16l-2.649-6.16c-0.398-0.93-1.332-1.302-2.7-0.872C0.277,26.748,0,27.085,0,27.782v7.258H0.002z"></path><path fill="#00796b" d="M13.441,29.281h1.92v4.055c-0.015,0.2,0.064,0.731,0.99,0.745c0.472,0.008,2.821,0,2.85,0v-4.8h1.92 c0.008,0,0,5.968,0,5.993c0.01,1.472-1.828,1.662-2.673,1.687h-5.006v-0.96c0.01,0,4.787,0.001,4.801,0 c1.088-0.115,0.959-0.714,0.959-0.896v-0.064H16.19c-1.67-0.015-2.735-0.751-2.747-1.59C13.441,33.373,13.479,29.317,13.441,29.281 z"></path><path fill="#f57f17" d="M22.081,35.041h4.807c0.63,0,1.242-0.132,1.728-0.36c0.81-0.372,1.144-0.875,1.144-1.536v-1.368 c0-1.476-1.83-1.536-2.88-1.536h-1.92c-0.755,0-0.87-0.456-0.96-0.96v-0.96c0.09-0.384,0.258-0.9,0.923-0.96 c0.773,0,4.836,0,4.836,0v-0.96h-4.566c-0.755,0-3.114,0.09-3.114,1.92v1.187c0,0.84,0.738,1.524,2.34,1.692 c0.18,0.012,0.36,0.024,0.539,0.024c0,0,1.866-0.036,1.92-0.024c1.08,0,0.96,0.84,0.96,0.96v0.96c0,0.132-0.03,0.96-0.971,0.96 c-0.072,0-4.789,0-4.789,0V35.041z"></path><path fill="#f57f17" d="M40.32,33.08c0,1.159,0.655,1.809,2.392,1.939c0.162,0.011,0.325,0.021,0.488,0.021H48v-0.96h-4.435 c-0.991,0-1.325-0.416-1.325-1.011v-6.669h-1.92V33.08z"></path><path fill="#f57f17" d="M30.704,33.121v-4.8c0-1.02,0.5-1.724,1.916-1.92h0.672h3.447h0.525 c1.416,0.196,2.08,0.899,2.08,1.92v4.782c0,0.827-0.215,1.271-0.916,1.559L39.916,36h-2.16l-1.07-0.96h-1.257l-2.136,0.012 c-0.309,0-0.635-0.043-0.993-0.141C31.226,34.618,30.704,34.054,30.704,33.121z M32.624,33.121c0.098,0.467,0.473,0.96,1.14,0.96 h1.864l-1.068-0.96h2.175l0.519,0.482c0,0,0.186-0.152,0.186-0.482c0-0.33-0.016-4.8-0.016-4.8c-0.098-0.434-0.538-0.96-1.188-0.96 h-2.471c-0.749,0-1.14,0.548-1.14,1.058L32.624,33.121L32.624,33.121z"></path><path fill="#00796b" d="M46.199,25.389c-1.031-0.028-1.818,0.068-2.491,0.351c-0.191,0.081-0.496,0.083-0.528,0.323 c0.105,0.11,0.121,0.275,0.205,0.41c0.16,0.26,0.432,0.609,0.674,0.791c0.265,0.2,0.538,0.414,0.821,0.587 c0.504,0.307,1.067,0.483,1.553,0.791c0.286,0.181,0.57,0.411,0.85,0.615c0.138,0.102,0.23,0.259,0.41,0.323 c0-0.01,0-0.019,0-0.029c-0.094-0.12-0.119-0.285-0.205-0.411c-0.127-0.127-0.254-0.254-0.381-0.381 c-0.372-0.494-0.846-0.929-1.348-1.289c-0.401-0.288-1.298-0.677-1.466-1.143c-0.01-0.01-0.019-0.019-0.03-0.03 c0.284-0.032,0.617-0.135,0.879-0.205c0.441-0.118,0.834-0.087,1.289-0.205c0.205-0.059,0.41-0.117,0.615-0.176 c0-0.039,0-0.078,0-0.117c-0.23-0.236-0.395-0.548-0.645-0.762c-0.657-0.559-1.373-1.117-2.11-1.583 c-0.409-0.258-0.915-0.426-1.348-0.645c-0.146-0.074-0.402-0.112-0.498-0.234c-0.228-0.29-0.351-0.659-0.527-0.996 c-0.368-0.708-0.73-1.482-1.055-2.227c-0.223-0.508-0.368-1.01-0.645-1.466c-1.331-2.188-2.764-3.509-4.982-4.807 c-0.472-0.276-1.041-0.385-1.642-0.528c-0.323-0.019-0.645-0.039-0.968-0.059c-0.197-0.083-0.401-0.323-0.587-0.44 c-0.735-0.465-2.621-1.475-3.165-0.147c-0.344,0.838,0.514,1.656,0.821,2.081c0.215,0.298,0.491,0.632,0.645,0.968 c0.101,0.22,0.119,0.441,0.205,0.674c0.213,0.574,0.55,1.228,0.826,1.759c0.139,0.269,0.293,0.551,0.469,0.791 c0.108,0.147,0.293,0.212,0.323,0.44c-0.181,0.253-0.191,0.646-0.293,0.968c-0.458,1.445-0.285,3.24,0.381,4.308 c0.204,0.328,0.686,1.032,1.348,0.762c0.579-0.236,0.45-0.967,0.615-1.612c0.037-0.146,0.014-0.253,0.088-0.351 c0,0.01,0,0.019,0,0.03c0.176,0.351,0.351,0.704,0.528,1.055c0.391,0.629,1.084,1.286,1.67,1.73 c0.304,0.23,0.544,0.628,0.938,0.762c0-0.01,0-0.019,0-0.03c-0.01,0-0.019,0-0.03,0c-0.076-0.119-0.196-0.168-0.293-0.264 c-0.229-0.225-0.485-0.504-0.674-0.762c-0.534-0.725-1.006-1.519-1.436-2.345c-0.205-0.395-0.384-0.829-0.557-1.231 c-0.067-0.155-0.066-0.389-0.205-0.469c-0.19,0.294-0.468,0.532-0.615,0.879c-0.234,0.555-0.265,1.233-0.351,1.934 c-0.052,0.018-0.029,0.006-0.059,0.029c-0.408-0.099-0.552-0.518-0.704-0.879c-0.384-0.912-0.455-2.38-0.117-3.429 c0.087-0.272,0.482-1.127,0.323-1.378c-0.076-0.251-0.328-0.396-0.468-0.587c-0.175-0.236-0.348-0.548-0.469-0.821 c-0.314-0.711-0.612-1.538-0.943-2.257c-0.158-0.344-0.425-0.691-0.645-0.996c-0.243-0.338-0.516-0.587-0.704-0.996 c-0.067-0.145-0.158-0.378-0.059-0.528c0.032-0.101,0.076-0.143,0.176-0.176c0.17-0.132,0.643,0.043,0.821,0.117 c0.47,0.195,0.862,0.381,1.26,0.645c0.191,0.127,0.384,0.372,0.615,0.44c0.088,0,0.176,0,0.264,0 c0.413,0.095,0.875,0.03,1.26,0.147c0.682,0.207,1.292,0.529,1.846,0.879c1.69,1.067,3.071,2.585,4.016,4.397 c0.152,0.292,0.218,0.57,0.351,0.879c0.27,0.624,0.611,1.266,0.879,1.876c0.268,0.609,0.53,1.223,0.909,1.73 c0.2,0.266,0.97,0.409,1.319,0.557c0.245,0.104,0.647,0.211,0.879,0.351c0.444,0.268,0.874,0.587,1.289,0.879 C45.528,24.803,46.167,25.124,46.199,25.389z"></path><path fill="#00796b" d="M33.098,14.223c-0.215-0.004-0.367,0.023-0.528,0.059c0,0.01,0,0.019,0,0.03c0.01,0,0.019,0,0.03,0 c0.103,0.21,0.283,0.347,0.41,0.528c0.098,0.205,0.195,0.41,0.293,0.615c0.01-0.01,0.019-0.019,0.029-0.029 c0.181-0.128,0.265-0.332,0.264-0.645c-0.073-0.077-0.084-0.173-0.147-0.264C33.365,14.394,33.203,14.325,33.098,14.223z"></path>
+                        </svg>
+                      <p class="label text-dark fw-bold">Mysql</p>
+                    </div>
+                  </div>
+                  <div class="col-3 d-flex flex-column align-items-center"  data-aos="flip-left" data-aos-delay="350">
+                    <div class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48">
+                        <path fill="#F4511E" d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z"></path>
+                        </svg>
+                      <p class="label text-dark fw-bold">Git</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+    
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="project" class="portfolio">
+      <div class="container">
+        <div class="title text-center d-flex flex-column align-items-center gap-2" data-aos="fade-up">
+          <h2 class="fw-bold title-text">Portfolio</h2>
+          <!-- svg -->
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" width="200" height="20">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="#3d03b8" stroke-width="2" />
+          </svg>
+          <p class="fs-6 text-secondary w-50">My Latest Project</p>
+        </div>
+
+        <div class="pf-filters d-flex align-items-center justify-content-center flex-wrap gap-3 mt-3 p-3" data-aos="fade-up" data-aos-delay="100">
+          <button class="btn btn-light" data-filter="all">All Work</button>
+          <button class="btn btn-light" data-filter=".webD">Web Design</button>
+          <button class="btn btn-light" data-filter=".webApp">Web App</button>
+          <button class="btn btn-light" data-filter=".dekstopApp">Desktop App</button>
+        </div>
+
+        <div class="row pf-container g-4 mt-5 mb-3" data-aos="fade-up" data-aos-delay="300">
+          <!-- card 1 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix webD">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/landing-page.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web Design</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Landing Page Booking Hotel</h3>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix webD">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/car-website.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web Design</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Cars Website</h3>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix webApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/react-todo.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web App</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">My Books</h3>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix webApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/booking-hotel.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web App</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Website Booking Hotel</h3>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix webApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/destinasi-wisata.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web Design</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Website Destination</h3>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix dekstopApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/dekstop-1.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Dekstop App</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Clock cashier Application</h3>
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="col-md-6 col-lg-6 pf-wrap mix dekstopApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/dekstop-2.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Dekstop App</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Inventory Application</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 pf-wrap mix webApp">
+            <div class="pf-card d-flex flex-column gap-3 rounded">
+              <div class="pf-img">
+                <img src="./assets/img/portfolio/bookshelfapp.png" alt="" class="img-fluid rounded" />
+                <div class="pf-bg-light"></div>
+              </div>
+              <div class="pf-content p-3">
+                <span class="text-primary mt-2">Web App</span>
+                <h3 class="text-dark fs-3 mt-2 mb-2">Bookshelf Application</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PORTFOLIO SECTION -->
+
+    <!-- SECTION SERVICES -->
+    <section id="services" class="services">
+      <div class="title text-center d-flex flex-column align-items-center gap-2" data-aos="fade-up">
+        <h2 class="fw-bold title-text">Services</h2>
+        <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" width="200" height="20">
+          <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="#3d03b8" stroke-width="2" />
+        </svg>
+       
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-5 mb-lg-0 d-flex align-items-start flex-column">
+            <h2 class="mb-4 text-start service-title">Kami menghadirkan solusi digital yang dirancang untuk memenuhi kebutuhan Anda.</h2>
+            <p class="mb-4 text-start">Dari desain visual hingga pengembangan aplikasi lintas platform, semua dikerjakan dengan standar kualitas tinggi..</p>
+            <button class="btn btn-outline-primary">See All Services</button>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-4">
+              <!-- Card 1 -->
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
+                  <i class="bi bi-activity service-icon"></i>
+                  <h3 class="fs-5">Web Design</h3>
+                  <p>Desain website yang modern, responsif, dan menarik untuk meningkatkan kredibilitas dan pengalaman pengunjung situs Anda.</p>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
+                  <i class="bi bi-activity service-icon"></i>
+                  <h3 class="fs-5">Web App</h3>
+                  <p>Pembuatan aplikasi berbasis web dengan fitur kustom sesuai kebutuhan Anda—mulai dari sistem informasi hingga platform e-commerce.</p>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
+                  <i class="bi bi-activity service-icon"></i>
+                  <h3 class="fs-5">Desktop App</h3>
+                  <p>Solusi aplikasi desktop untuk kebutuhan bisnis internal, point of sale, manajemen data, dan lainnya, dengan performa tinggi dan antarmuka yang intuitif.</p>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
+                  <i class="bi bi-activity service-icon"></i>
+                  <h3 class="fs-5">Mobile App</h3>
+                  <p>Pengembangan aplikasi Android dan iOS yang cepat, ringan, dan user-friendly, untuk menjangkau pengguna mobile secara maksimal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION SERVICES -->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="contact-content" data-aos="fade-right" data-aos-delay="100">
+              <div class="mb-3 fs-5">Contact</div>
+              <h2 class="mb-4">Punya pertanyaan, masukan, atau ingin bekerja sama?</h2>
+              <p class="lead mb-2">Silakan hubungi kami melalui form di bawah ini, dan kami akan segera merespons secepat mungkin.</p>
+              <div class="contact-info mt-5">
+                <div class="info-box d-flex align-items-center mb-2">
+                  <i class="bi bi-envelope-at me-3 fs-5 text-primary"></i>
+                  <span class="fs-6">rafif@gmail.com</span>
+                </div>
+                <div class="info-box d-flex align-items-center mb-2">
+                  <i class="bi bi-telephone me-3 fs-5 text-primary"></i>
+                  
+                  <span class="fs-6">085694529328</span>
+                </div>
+                <div class="info-box d-flex align-items-center mb-2">
+                  <i class="bi bi-instagram me-3 fs-5 text-primary"></i>
+                  <span class="fs-6">@muhrafifrbn</span>
+                </div>
+                <div class="info-box d-flex align-items-center mb-2">
+                  <i class="bi bi-house-door me-3 fs-5 text-primary"></i>
+                  <span class="fs-6">Ciputat, Tangerang Selatan</span>
+                </div>
+
+             
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-form shadow rounded" data-aos="fade-left" data-aos-delay="300">
+              <div class="p-4 p-lg-5">
+                <div class="p-4 p-lg-5">
+                  <form>
+                    <div class="row gy-4">
+                      <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Your Name" required />
+                      </div>
+                      <div class="col-12">
+                        <input type="email" class="form-control" placeholder="Your E-mail" required />
+                      </div>
+                      <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Subject" required />
+                      </div>
+                      <div class="col-12">
+                        <textarea class="form-control" name="massage" rows="6" placeholder="Message"></textarea>
+                      </div>
+                      <div class="col-12 text-center">
+                        <button type="button" class="btn btn-submit w-100">Submit Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer shadow p-5">
+      <div class="container d-flex flex-column align-items-center" data-aos="fade-down" data-aos-delay="100">
+        <ul class="d-flex align-items-center justify-content-center flex-wrap gap-3">
+          <li><a href="#" class="text-dark fs-4">Home</a></li>
+          <li><a href="#" class="text-dark fs-4">About</a></li>
+          <li><a href="#" class="text-dark fs-4">Services</a></li>
+          <li><a href="#" class="text-dark fs-4">Blog</a></li>
+          <li><a href="#" class="text-dark fs-4">Contact</a></li>
+        </ul>
+        <div class="social-links mt-2 d-flex align-items-center gap-2">
+          <i class="border rounded-circle text-secondary bi bi-twitter-x"></i>
+          <i class="border rounded-circle text-secondary bi bi-facebook"></i>
+          <i class="border rounded-circle text-secondary bi bi-instagram"></i>
+          <i class="border rounded-circle text-secondary bi bi-linkedin"></i>
+        </div>
+        <div class="text-center mt-4">
+          <p>
+            &copy; Create Love By <a href="#"><strong>Muhammad Rafif Rabbani</strong></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- CDN Aos -->
+    <script src="./assets/aos/dist/aos.js"></script>
+
+    <!-- CDN Sweeper js -->
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+
+    <!-- CDN Boostrape -->
+    <script src="./assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CDN Mixitup js -->
+    <script src="./assets/mixitup/dist/mixitup.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
