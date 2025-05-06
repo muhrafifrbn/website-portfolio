@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow: hidden;
+}
+
 :root {
   --prim-color: #3d03b8;
   --text-dark-color: #0f2943;
@@ -198,8 +202,6 @@ section {
 .pf-card:hover .pf-bg-light {
   opacity: 1;
 }
-
-
 
 /* END PORTFOLIO SECTION */
 
