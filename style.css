@@ -10,10 +10,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  overflow: hidden;
-}
-
 :root {
   --prim-color: #3d03b8;
   --text-dark-color: #0f2943;
@@ -30,6 +26,11 @@ body {
 }
 
 /* Background */
+
+.background {
+  width: 100%;
+  overflow: hidden;
+}
 
 .overlay {
   position: fixed;
