@@ -26,6 +26,10 @@
 }
 
 /* Background */
+html,
+body {
+  overflow-x: hidden;
+}
 
 .background {
   width: 100%;
