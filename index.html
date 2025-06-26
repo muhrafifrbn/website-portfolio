@@ -425,8 +425,8 @@
       <div class="container" data-aos="fade-up" data-aos-delay="200">
         <div class="row align-items-center">
           <div class="col-lg-4 mb-5 mb-lg-0 d-flex align-items-start flex-column">
-            <h2 class="mb-4 text-start service-title">Kami menghadirkan solusi digital yang dirancang untuk memenuhi kebutuhan Anda.</h2>
-            <p class="mb-4 text-start">Dari desain visual hingga pengembangan aplikasi lintas platform, semua dikerjakan dengan standar kualitas tinggi..</p>
+            <h2 class="mb-4 text-start service-title">I present a digital solution designed to meet your needs.</h2>
+            <p class="mb-4 text-start">From visual design to cross-platform application development, everything is done to the highest quality standards...</p>
             <button class="btn btn-outline-primary">See All Services</button>
           </div>
 
@@ -437,7 +437,7 @@
                 <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
                   <i class="bi bi-activity service-icon"></i>
                   <h3 class="fs-5">Web Design</h3>
-                  <p>Desain website yang modern, responsif, dan menarik untuk meningkatkan kredibilitas dan pengalaman pengunjung situs Anda.</p>
+                  <p>Modern, responsive, and engaging website design to enhance your site's credibility and visitor experience.</p>
                 </div>
               </div>
               <!-- Card 2 -->
@@ -445,7 +445,7 @@
                 <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
                   <i class="bi bi-activity service-icon"></i>
                   <h3 class="fs-5">Web App</h3>
-                  <p>Pembuatan aplikasi berbasis web dengan fitur kustom sesuai kebutuhan Anda—mulai dari sistem informasi hingga platform e-commerce.</p>
+                  <p>Web-based application development with custom features tailored to your needs—ranging from information systems to e-commerce platforms.</p>
                 </div>
               </div>
               <!-- Card 3 -->
@@ -453,7 +453,7 @@
                 <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
                   <i class="bi bi-activity service-icon"></i>
                   <h3 class="fs-5">Desktop App</h3>
-                  <p>Solusi aplikasi desktop untuk kebutuhan bisnis internal, point of sale, manajemen data, dan lainnya, dengan performa tinggi dan antarmuka yang intuitif.</p>
+                  <p>Desktop application solutions for internal business needs, point of sale, data management, and more—offering high performance and an intuitive interface.</p>
                 </div>
               </div>
               <!-- Card 4 -->
@@ -461,7 +461,7 @@
                 <div class="service-card d-flex flex-column align-items-start text-start rounded shadow p-4">
                   <i class="bi bi-activity service-icon"></i>
                   <h3 class="fs-5">Mobile App</h3>
-                  <p>Pengembangan aplikasi Android dan iOS yang cepat, ringan, dan user-friendly, untuk menjangkau pengguna mobile secara maksimal.</p>
+                  <p>Fast, lightweight, and user-friendly Android and iOS app development to effectively reach mobile users.</p>
                 </div>
               </div>
             </div>
@@ -478,8 +478,8 @@
           <div class="col-lg-6">
             <div class="contact-content" data-aos="fade-right" data-aos-delay="100">
               <div class="mb-3 fs-5">Contact</div>
-              <h2 class="mb-4">Punya pertanyaan, masukan, atau ingin bekerja sama?</h2>
-              <p class="lead mb-2">Silakan hubungi kami melalui form di bawah ini, dan kami akan segera merespons secepat mungkin.</p>
+              <h2 class="mb-4">Have a question, feedback, or interested in collaborating?</h2>
+              <p class="lead mb-2">Feel free to contact me using the form below, and I’ll respond as soon as possible.</p>
               <div class="contact-info mt-5">
                 <div class="info-box d-flex align-items-center mb-2">
                   <i class="bi bi-envelope-at me-3 fs-5 text-primary"></i>
@@ -507,22 +507,22 @@
             <div class="contact-form shadow rounded" data-aos="fade-left" data-aos-delay="300">
               <div class="p-4 p-lg-5">
                 <div class="p-4 p-lg-5">
-                  <form>
+                  <form id="contact-form">
                     <div class="row gy-4">
                       <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Your Name" required />
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required />
                       </div>
                       <div class="col-12">
-                        <input type="email" class="form-control" placeholder="Your E-mail" required />
+                        <input type="email" name="from_email" class="form-control" placeholder="Your Email" required />
                       </div>
                       <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Subject" required />
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required />
                       </div>
                       <div class="col-12">
-                        <textarea class="form-control" name="massage" rows="6" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
                       </div>
                       <div class="col-12 text-center">
-                        <button type="button" class="btn btn-submit w-100">Submit Message</button>
+                        <button type="submit" class="btn btn-submit w-100">Kirim Pesan</button>
                       </div>
                     </div>
                   </form>
@@ -567,6 +567,9 @@
     <!-- CDN Mixitup js -->
     <script src="./assets/mixitup/dist/mixitup.min.js"></script>
 
+    <!-- CDN EmailJs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
     <script src="./script.js"></script>
   </body>
 </html>
